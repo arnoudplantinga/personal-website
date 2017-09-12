@@ -9,7 +9,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-36449777-6"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -26,10 +26,10 @@ defaultContentLanguageInSubdir = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "06_vierkant.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "a.plantinga@tilburguniversity.edu"
-  address = "Simon Building Room S 416, Tilburg University, The Netherlands"
-  # office_hours = "[Schedule a meeting](https://my.timekit.io/arnoudplantinga)"
+  address = "Room S 416, Tilburg University, The Netherlands"
+  # office_hours = "<strong>Hello</strong> world"
   phone = "013 466 2184"
-  skype = "a.plantinga@tilburguniversity.edu"
+  # skype = "a.plantinga@tilburguniversity.edu"
   # telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
@@ -87,7 +87,7 @@ defaultContentLanguageInSubdir = false
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = []
-  custom_js  = []
+  # custom_js  = ["booking.min.js", "jqeury.min.js"]
 
   # Publication types.
   #   Used to categorize publications.
@@ -178,6 +178,11 @@ defaultContentLanguageInSubdir = false
   name = "Contact"
   url = "#contact"
   weight = 6
+
+[[menu.main]]
+  # name = "Schedule a meeting"
+  # url = "meeting"
+  # weight = 6
 
 # Taxonomies.
 [taxonomies]
