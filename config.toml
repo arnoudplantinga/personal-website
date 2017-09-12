@@ -1,4 +1,4 @@
-baseurl = "http://dnd.arnoudplantinga.nl/"  # End your URL with a `/` trailing slash.
+baseurl = "http://www.arnoudplantinga.nl/"  # End your URL with a `/` trailing slash.
 title = "Arnoud Plantinga"
 copyright = "&copy; 2017 Arnoud Plantinga"
 theme = "hugo-academic"
@@ -156,7 +156,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Research"
-  url = "#publications_selected"
+  url = "#research"
   weight = 2
 
 [[menu.main]]

@@ -1,7 +1,7 @@
 +++
 abstract = "Shame is associated with a threatened self-image and a decrease in status, and with actions aimed at restoring the self-image and gaining status. We examined whether people who feel ashamed about their financial situation are more interested in status and status products. In two correlational studies, financial shame was highly prevalent: 35.2% of participants reported feeling at least somewhat ashamed of their financial situation. Using a structural equation model that controls for the effect of income, we found that financial shame is related to more interest in status and status products. In conclusion, people who feel ashamed of their financial situation seem more interested in status, and report consuming more status products in comparison with people with similar incomes."
 
-abstract_short = "We find that people who feel ashamed of their financial situation are more interested in status. At the same income level, people who experience shame are also more likely to report consuming status products. "
+abstract_short = "People who feel ashamed of their financial situation are more interested in status and, at the same income level, are also more likely to report consuming status products. "
 authors = ["A Plantinga", "SM Breugelmans", "M Zeelenberg"]
 date = "2017-06-28"
 image_preview = ""
