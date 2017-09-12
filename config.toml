@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"  # End your URL with a `/` trailing slash.
+baseurl = "http://dnd.arnoudplantinga.nl/"  # End your URL with a `/` trailing slash.
 title = "Arnoud Plantinga"
 copyright = "&copy; 2017 Arnoud Plantinga"
 theme = "hugo-academic"
@@ -20,14 +20,14 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Arnoud Plantinga"
-  role = "PhD Student in Social Psychology"
+  role = "PhD Student Social Psychology"
   organization = "Tilburg University"
   organization_url = "https://www.tilburguniversity.edu/"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "06_vierkant.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "a.plantinga@tilburguniversity.edu"
   address = "Simon Building Room S 416, Tilburg University, The Netherlands"
-  # office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  # office_hours = "[Schedule a meeting](https://my.timekit.io/arnoudplantinga)"
   phone = "013 466 2184"
   skype = "a.plantinga@tilburguniversity.edu"
   # telegram = ""
@@ -82,7 +82,7 @@ defaultContentLanguageInSubdir = false
   # highlight_version = "9.9.0"
 
   # Enable native social sharing buttons?
-  sharing = true
+  sharing = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)

@@ -16,4 +16,4 @@ autolink = true
 
 +++
 
-[Make an appointment](meeting)
+[Make an appointment](https://my.timekit.io/arnoudplantinga)
