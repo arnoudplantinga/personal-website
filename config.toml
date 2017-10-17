@@ -28,7 +28,7 @@ defaultContentLanguageInSubdir = false
   email = "a.plantinga@tilburguniversity.edu"
   address = "Room S 416, Tilburg University, The Netherlands"
   # office_hours = "<strong>Hello</strong> world"
-  phone = "013 466 2184"
+  # phone = "013 466 2184"
   # skype = "a.plantinga@tilburguniversity.edu"
   # telegram = ""
 
@@ -87,7 +87,7 @@ defaultContentLanguageInSubdir = false
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = []
-  # custom_js  = ["booking.min.js", "jqeury.min.js"]
+  custom_js  = ["analytics.js", "autotrack.js"]
 
   # Publication types.
   #   Used to categorize publications.

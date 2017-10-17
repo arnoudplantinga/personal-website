@@ -20,13 +20,13 @@ weight = 60
         <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
         <span id="person-email" itemprop="email"><a href="mailto:a.plantinga@tilburguniversity.edu">a.plantinga@tilburguniversity.edu</a></span>
       </li>
-      <li>
+      <!-- <li>
         <i class="fa-li fa fa-phone fa-2x" aria-hidden="true"></i>
         <span id="person-telephone" itemprop="telephone">013 466 2184</span>
-      </li>
+      </li> -->
       <li>
         <i class="fa-li fa fa-clock-o fa-2x" aria-hidden="true"></i>
-        <span id="person-meeting" itemprop="meeting"><a href="meeting">Schedule a meeting with me</a></span>
+        <span id="person-meeting" itemprop="meeting"><a href="meeting">Schedule a meeting</a></span>
       </li>
       <li>
         <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
