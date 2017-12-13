@@ -32,4 +32,4 @@ weight = 1
 
 <!-- # Biography -->
 
-I'm a PhD student at Tilburg University's Social Psychology department and the Tilburg Institute for Behavioral Economics Research. My PhD project focuses on poverty and financial decisions. I'm working with Marcel Zeelenberg and Seger Breugelmans.
+I’m a PhD student at Tilburg University’s Social Psychology department and the Tilburg Institute for Behavioral Economics Research. With Marcel Zeelenberg and Seger Breugelmans, I study how poverty influences decision making. I’m also an improvisation actor and trainer at the [Tilburg Tigers](http://www.tilburgtigers.nl).

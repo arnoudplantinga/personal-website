@@ -1,9 +1,12 @@
 baseurl = "http://www.arnoudplantinga.nl/"  # End your URL with a `/` trailing slash.
 title = "Arnoud Plantinga"
 copyright = "&copy; 2017 Arnoud Plantinga"
-theme = "hugo-academic"
+theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+paginate = 10
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
@@ -15,29 +18,89 @@ googleAnalytics = "UA-36449777-6"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+[outputs]
+  home = [ "HTML", "CSS", "RSS" ]
+  section = [ "HTML", "RSS" ]
+
+# Configure BlackFriday Markdown rendering.
+#   See: https://gohugo.io/readfiles/bfconfig/
 [blackfriday]
-  hrefTargetBlank = true
+  hrefTargetBlank = true  # `true` opens external links in a new tab.
+  fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
+  smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
 
 [params]
+  # Color theme.
+  #   Choose from `default`, `ocean`, `forest`, `coffee`, or `dark`.
+  color_theme = "default"
+
+  # Font style.
+  #   Choose from `default`, `classic`, or `playfair`.
+  font = "default"
+
+  # Your details.
   name = "Arnoud Plantinga"
   role = "PhD Student Social Psychology"
-  organization = "Tilburg University"
-  organization_url = "https://www.tilburguniversity.edu/"
+
+  # Organizations/Affiliations.
+  #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
+  organizations = [ { name = "Tilburg University", url = "" } ]
+
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "06_vierkant.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "a.plantinga@tilburguniversity.edu"
   address = "Room S 416, Tilburg University, The Netherlands"
-  # office_hours = "<strong>Hello</strong> world"
-  # phone = "013 466 2184"
-  # skype = "a.plantinga@tilburguniversity.edu"
+  # office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  # phone = "888 888 88 88"
+  # skype = "echo123"
   # telegram = ""
 
-  # Enable Keybase in Contact section by entering your keybase.io username.
+  # Enable Keybase in Contact widget by entering your keybase.io username.
   keybase = ""
 
-  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  # Discussion link (e.g. link to a forum, mailing list, or chat).
+  #   Uncomment line below to use.
+  #   discussion = { name = "Discuss", url = "https://discourse.gohugo.io" }
+
+  # Diplay a logo in navigation bar rather than title (optional).
+  #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
+  logo = ""
+
+  # Enable/disable map in Contact widget.
+  # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
+  # a map provider below.
+  # To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
+  #   https://developers.google.com/maps/documentation/javascript/get-api-key
+  # To use OpenStreetMap tiles, set `map = 2`.
+  # To use OpenStreetMap on a high traffic site, set `map = 3` and enter your API key that can be obtained here:
+  #   https://www.mapbox.com/studio/account/tokens
+  # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
+  #
+  # Map provider:
+  #   0: No map
+  #   1: Google Maps
+  #   2: OpenStreetMap (Mapnik)
+  #   3: OpenStreetMap (Mapbox)
+  # map = 0
+  # map_api_key = ""
+  # latitude = "37.4275"
+  # longitude = "-122.1697"
+  # zoom = 15
+
+  # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Jan 2, 2006"
+  #   Examples: "3:04 pm" or "15:04"
+  time_format = "15:04"
+
+  # Show estimated reading time for posts?
+  reading_time = false
+
+  # Display comment count? Requires commenting to be enabled.
+  comment_count = false
+
+  # Display section pager for posts?
+  section_pager = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
@@ -65,21 +128,14 @@ defaultContentLanguageInSubdir = false
   #
   #     Example: highlight_style = "github-gist"
   #
-  #   highlight_version
-  #     Choose the version of highlight.js you want. Setting this
-  #     option in a page's preamble has no effect.
-  #
-  #     Example: highlight_version = "9.9.0"
-  #
-  #   For the list of supported languages, styles, and versions, see:
+  #   For the list of supported languages and styles, see:
   #   https://cdnjs.com/libraries/highlight.js/
   #
   #   For more info on the highlighting options, see:
-  #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
+  #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
   highlight_languages = []
   # highlight_style = "github"
-  # highlight_version = "9.9.0"
 
   # Enable native social sharing buttons?
   sharing = false
@@ -87,7 +143,7 @@ defaultContentLanguageInSubdir = false
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = []
-  custom_js  = ["analytics.js", "autotrack.js"]
+  custom_js  = []
 
   # Publication types.
   #   Used to categorize publications.
@@ -104,6 +160,29 @@ defaultContentLanguageInSubdir = false
     'Book',  # 5
     'Book chapter'  # 6
   ]
+
+  # Configuration of talk pages.
+  [params.talks]
+    # Show talk time?
+    time = true
+
+  # Configuration of publication pages.
+  [params.publications]
+    # Date format (refer to Go's date format: http://fuckinggodateformat.com )
+    #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+    date_format = "January, 2006"
+
+  # Configuration of project pages.
+  [params.projects]
+    # List publications and talks related to the project?
+    list_children = true
+
+    # Publication list format.
+    #   0 = Simple
+    #   1 = Detailed
+    #   2 = APA
+    #   3 = MLA
+    publication_format = 1
 
   # Social/Academic Networking
   #
@@ -143,11 +222,13 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "https://nl.linkedin.com/in/arnoud-plantinga-889b6216"
 
-
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
+[params.menus]
+  # Align the main menu to the right of the page? (true/false)
+  align_right = true
 
 [[menu.main]]
   name = "Home"
@@ -159,40 +240,40 @@ defaultContentLanguageInSubdir = false
   url = "#research"
   weight = 2
 
-[[menu.main]]
-  # name = "Posts"
-  # url = "#posts"
-  # weight = 3
+# [[menu.main]]
+#   # name = "Posts"
+#   # url = "#posts"
+#   # weight = 3
 
-[[menu.main]]
-  # name = "Projects"
-  # url = "#projects"
-  # weight = 4
+# [[menu.main]]
+#   # name = "Projects"
+#   # url = "#projects"
+#   # weight = 4
 
-[[menu.main]]
-  # name = "Teaching"
-  # url = "#teaching"
-  # weight = 5
+# [[menu.main]]
+#   # name = "Teaching"
+#   # url = "#teaching"
+#   # weight = 5
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
   weight = 6
 
-[[menu.main]]
-  # name = "Schedule a meeting"
-  # url = "meeting"
-  # weight = 6
+# [[menu.main]]
+#   # name = "Schedule a meeting"
+#   # url = "meeting"
+#   # weight = 6
 
-# Taxonomies.
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  publication_type = "publication_types"
+# # Taxonomies.
+# [taxonomies]
+#   tag = "tags"
+#   category = "categories"
+#   publication_type = "publication_types"
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
 # Configure the English version of the website.
-[languages.en]
+[Languages.en]
   languageCode = "en-us"
