@@ -33,3 +33,7 @@ Voor een *t*-test kun je de effect size Cohen’s *d* gebruiken:
 Klik op *Calculate* en bij *Total sample size* vind je het benodigde aantal proefpersonen.
 
 <sup>1</sup>: Behalve als je zeker weet dat je alleen geïnteresseerd bent in één richting én je dat gepreregistreerd hebt.
+
+# Meer informatie
+
+Kijk voor meer informatie in de [handleiding van GPower](http://www.gpower.hhu.de/fileadmin/redaktion/Fakultaeten/Mathematisch-Naturwissenschaftliche_Fakultaet/Psychologie/AAP/gpower/GPowerManual.pdf).
