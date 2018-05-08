@@ -13,14 +13,10 @@ selected = false
 title = "Schulden en schaamte: De rol van schaamte bij consumentenkrediet"
 # url_code = "#"
 # url_dataset = "https://osf.io/qab34/"
-# url_pdf = "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FC5CD1B297A9730BA1A6FC0E12E5DD7E/S0140525X17000899a.pdf/elusive_constellations_of_poverty.pdf"
+url_pdf = "pdf/Schulden%20en%20schaamte.pdf"
 # url_project = "project/deep-learning/"
 # url_slides = "#"
 # url_video = "#"
-
-[[url_custom]]
-name = "Post-print"
-url = "pdf/Schulden%20en%20schaamte.pdf"
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]
