@@ -3,7 +3,7 @@ abstract = "Shame is associated with a threatened self-image and a decrease in s
 
 abstract_short = "People who feel ashamed of their financial situation are more interested in status and, at the same income level, are also more likely to report consuming status products."
 authors = ["A Plantinga", "SM Breugelmans", "M Zeelenberg"]
-date = "2017-11-10"
+date = "2018-04-13"
 image_preview = ""
 math = false
 publication_types = ["3"]
