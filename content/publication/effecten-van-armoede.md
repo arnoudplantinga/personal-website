@@ -20,7 +20,11 @@ title = "De Effecten van Armoede op Voelen, Denken en Doen"
 
 [[url_custom]]
 name = "Working paper"
-url = "pdf/Effecten%20van%20Armoede.pdf"
+url = "https://osf.io/xb625/download"
+
+[[url_custom]]
+name = "OSF"
+url = "https://osf.io/ua25d/"
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]
