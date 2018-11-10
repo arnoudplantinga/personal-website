@@ -15,5 +15,3 @@ weight = 80
 +++
 
 {{% meetingwidget %}}
-
-Powered by [Timekit](https://www.timekit.io/).
