@@ -40,16 +40,16 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Arnoud Plantinga"
-  role = "PhD Student Social Psychology"
+  role = "Behavioral Scientist"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Tilburg University", url = "" } ]
+  organizations = [ { name = "Autoriteit Financiële Markten", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "06_vierkant.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "a.plantinga@tilburguniversity.edu"
-  address = "Room S 416, Tilburg University, The Netherlands"
+  email = "arnoudplantinga@gmail.com"
+  # address = "Room S 416, Tilburg University, The Netherlands"
   # office_hours = "Monday 10:00 to 13:00 or email for appointment"
   # phone = "888 888 88 88"
   # skype = "echo123"
@@ -205,7 +205,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:a.plantinga@tilburguniversity.edu"
+    link = "mailto:arnoudplantinga@gmail.com"
 
   [[params.social]]
     icon = "google-scholar"
@@ -220,7 +220,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "linkedin"
     icon_pack = "fa"
-    link = "https://nl.linkedin.com/in/arnoud-plantinga-889b6216"
+    link = "https://www.linkedin.com/in/arnoud-plantinga/"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the

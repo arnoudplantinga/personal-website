@@ -10,12 +10,12 @@ widget = "about"
 weight = 1
 
 # List your academic interests.
-[interests]
-  interests = [
-    "Judgment and Decision Making",
-    "Poverty",
-    "Social Psychology"
-  ]
+# [interests]
+#   interests = [
+#     "Judgment and Decision Making",
+#     "Poverty",
+#     "Social Psychology"
+#   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
@@ -32,4 +32,6 @@ weight = 1
 
 <!-- # Biography -->
 
-I’m a PhD student at Tilburg University’s Social Psychology department and the Tilburg Institute for Behavioral Economics Research. With Marcel Zeelenberg and Seger Breugelmans, I study how poverty influences decision making. I’m also an improvisation actor and trainer at the [Tilburg Tigers](http://www.tilburgtigers.nl).
+I'm a behavioral scientist at the Netherlands Authority for the Financial Markets ([AFM](https://www.afm.nl/)). In the Consumer Behavior team, we apply existing knowledge and perform new studies related to consumer decision making.
+
+My PhD project focused on the influence of experiencing poverty on financial decisions. In this project I worked with Marcel Zeelenberg and Seger Breugelmans.
