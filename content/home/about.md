@@ -32,6 +32,6 @@ weight = 1
 
 <!-- # Biography -->
 
-I'm a behavioral scientist at the Netherlands Authority for the Financial Markets ([AFM](https://www.afm.nl/)). In the Consumer Behavior team, we apply existing knowledge and perform new studies related to consumer decision making.
+I'm a behavioral scientist at the Dutch Authority for the Financial Markets ([AFM](https://www.afm.nl/)). In the Consumer Behavior team, we apply existing knowledge and perform new studies related to consumer decision making.
 
-My PhD project focused on the influence of experiencing poverty on financial decisions. In this project I worked with Marcel Zeelenberg and Seger Breugelmans.
+My [PhD project](publication/dissertation) focused on the influence of poverty on financial decisions. In this project I worked with Marcel Zeelenberg and Seger Breugelmans.
