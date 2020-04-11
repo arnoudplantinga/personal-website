@@ -40,11 +40,11 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Arnoud Plantinga"
-  role = "Behavioral Scientist"
+  role = "Data Scientist"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Autoriteit Financiële Markten", url = "" } ]
+  organizations = [ { name = "Elizabeth-Tweesteden Ziekenhuis", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "06_vierkant.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.

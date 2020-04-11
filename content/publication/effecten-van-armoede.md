@@ -13,14 +13,10 @@ selected = false
 title = "De Effecten van Armoede op Voelen, Denken en Doen"
 # url_code = "#"
 # url_dataset = "https://osf.io/qab34/"
-# url_pdf = "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FC5CD1B297A9730BA1A6FC0E12E5DD7E/S0140525X17000899a.pdf/elusive_constellations_of_poverty.pdf"
+url_pdf = "pdf/Effecten%20van%20Armoede.pdf"
 # url_project = "project/deep-learning/"
 # url_slides = "#"
 # url_video = "#"
-
-[[url_custom]]
-name = "Working paper"
-url = "https://osf.io/xb625/download"
 
 [[url_custom]]
 name = "OSF"

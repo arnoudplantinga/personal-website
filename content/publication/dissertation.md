@@ -19,8 +19,16 @@ title = "Poor Psychology: Poverty, shame, and decision making"
 # url_video = "#"
 
 [[url_custom]]
-name = "Download"
+name = "Dissertation"
 url = "pdf/Poor%20Psychology.pdf"
+
+[[url_custom]]
+name = "Nederlandse samenvatting"
+url = "pdf/Poor%20Psychology%20-%20Samenvatting.pdf"
+
+[[url_custom]]
+name = "Media-aandacht"
+url = "media"
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]
